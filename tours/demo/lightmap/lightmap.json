@@ -1,0 +1,250 @@
+{
+ "version": 1,
+ "encoding": {
+  "type": "pow",
+  "gamma": 2.2,
+  "scale": 0.958658754825592
+ },
+ "exposure": 9.179491613364526,
+ "variants": [
+  {
+   "key": "3a7d6a21",
+   "atlas": {
+    "high": "lightmap-3a7d6a21-2048.jpg",
+    "low": "lightmap-3a7d6a21-1024.jpg"
+   },
+   "uv": "lightmap-3a7d6a21-uv.bin",
+   "meshes": [
+    {
+     "name": "shell-plasterNeutral",
+     "verts": 108,
+     "tris": 82,
+     "extra": 3,
+     "remap": 3
+    },
+    {
+     "name": "shell-plaster",
+     "verts": 120,
+     "tris": 60,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-wallTop",
+     "verts": 72,
+     "tris": 36,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-tiles",
+     "verts": 20,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-sandstone",
+     "verts": 4,
+     "tris": 2,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-oak",
+     "verts": 76,
+     "tris": 40,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-ceiling",
+     "verts": 26,
+     "tris": 16,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-terrace",
+     "verts": 6,
+     "tris": 4,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-stone",
+     "verts": 60,
+     "tris": 30,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-frame",
+     "verts": 360,
+     "tris": 180,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-doorLeafFlush",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-paint",
+     "verts": 1296,
+     "tris": 648,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "furniture-paint",
+     "verts": 3259,
+     "tris": 1940,
+     "extra": 182,
+     "remap": 381
+    },
+    {
+     "name": "furniture-wood",
+     "verts": 2420,
+     "tris": 1412,
+     "extra": 60,
+     "remap": 90
+    },
+    {
+     "name": "furniture-ceramic",
+     "verts": 1601,
+     "tris": 1776,
+     "extra": 146,
+     "remap": 244
+    },
+    {
+     "name": "furniture-foliage",
+     "verts": 1815,
+     "tris": 2000,
+     "extra": 1715,
+     "remap": 2323
+    },
+    {
+     "name": "furniture-screen",
+     "verts": 583,
+     "tris": 636,
+     "extra": 154,
+     "remap": 266
+    },
+    {
+     "name": "furniture-fabric",
+     "verts": 9288,
+     "tris": 12760,
+     "extra": 3546,
+     "remap": 5901
+    },
+    {
+     "name": "furniture-rug",
+     "verts": 408,
+     "tris": 560,
+     "extra": 160,
+     "remap": 258
+    },
+    {
+     "name": "door-frame-dv-terasa-obyvak",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-terasa-loznice",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-loznice",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-obyvak",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-koupelna",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    }
+   ],
+   "state": {
+    "furnished": false,
+    "edits": []
+   }
+  }
+ ],
+ "note": "Cycles 2048² × 768 vzorků, slunce 3.0, obloha 1.0, lampy 10.0 W, hustota 71 texelů/m, 2026-11-15 18:43"
+}

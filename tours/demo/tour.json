@@ -1,0 +1,2417 @@
+{
+ "version": 1,
+ "title": "Byt 2+kk s terasou – Šlapanice",
+ "source": "demo",
+ "units": "m",
+ "spawn": {
+  "position": [
+   3.5,
+   0,
+   1.6
+  ],
+  "yaw": -163.1,
+  "pitch": -19.6
+ },
+ "settings": {
+  "eyeHeight": 1.65,
+  "walkSpeed": 1.4,
+  "runMultiplier": 2.2
+ },
+ "floorPlan": {
+  "rooms": [
+   {
+    "id": "obyvak",
+    "name": "Obývací pokoj s kuchyňským koutem",
+    "areaM2": 20.7,
+    "polygon": [
+     [
+      2.894,
+      0.292
+     ],
+     [
+      9.722,
+      0.292
+     ],
+     [
+      9.722,
+      3.085
+     ],
+     [
+      6.558,
+      3.085
+     ],
+     [
+      6.558,
+      3.541
+     ],
+     [
+      2.894,
+      3.541
+     ]
+    ]
+   },
+   {
+    "id": "loznice",
+    "name": "Ložnice",
+    "areaM2": 11.1,
+    "polygon": [
+     [
+      2.894,
+      3.631
+     ],
+     [
+      6.558,
+      3.631
+     ],
+     [
+      6.558,
+      7.072
+     ],
+     [
+      3.119,
+      6.412
+     ],
+     [
+      3.119,
+      5.21
+     ],
+     [
+      2.894,
+      5.21
+     ]
+    ]
+   },
+   {
+    "id": "predsin",
+    "name": "Předsíň",
+    "areaM2": 3.4,
+    "polygon": [
+     [
+      6.708,
+      3.219
+     ],
+     [
+      8.544,
+      3.219
+     ],
+     [
+      8.544,
+      5.074
+     ],
+     [
+      6.708,
+      5.074
+     ]
+    ]
+   },
+   {
+    "id": "koupelna",
+    "name": "Koupelna s WC",
+    "areaM2": 3.3,
+    "polygon": [
+     [
+      6.708,
+      5.218
+     ],
+     [
+      8.544,
+      5.218
+     ],
+     [
+      8.544,
+      6.996
+     ],
+     [
+      6.708,
+      6.996
+     ]
+    ]
+   },
+   {
+    "id": "terasa",
+    "name": "Terasa",
+    "areaM2": 16.2,
+    "polygon": [
+     [
+      0,
+      0.222
+     ],
+     [
+      2.804,
+      0.222
+     ],
+     [
+      2.804,
+      5.21
+     ],
+     [
+      2.579,
+      5.21
+     ],
+     [
+      2.579,
+      6.308
+     ],
+     [
+      0,
+      5.813
+     ]
+    ]
+   }
+  ],
+  "image": {
+   "url": "pudorys.jpg"
+  },
+  "imageTransform": {
+   "position": [
+    5.02,
+    3.79
+   ],
+   "rotationDeg": 0,
+   "scale": 0.01
+  },
+  "walls": [
+   [
+    2.849,
+    0.147,
+    2.849,
+    1.428
+   ],
+   [
+    2.849,
+    2.178,
+    2.849,
+    3.75
+   ],
+   [
+    2.849,
+    4.55,
+    2.849,
+    5.21
+   ],
+   [
+    2.849,
+    5.21,
+    2.849,
+    6.615
+   ],
+   [
+    2.849,
+    0.147,
+    10.016,
+    0.147
+   ],
+   [
+    0,
+    0.147,
+    2.849,
+    0.147
+   ],
+   [
+    10.016,
+    0.147,
+    10.016,
+    3.225
+   ],
+   [
+    8.69,
+    3.225,
+    10.016,
+    3.225
+   ],
+   [
+    8.69,
+    3.225,
+    8.69,
+    7.736
+   ],
+   [
+    -0.047,
+    6.058,
+    8.69,
+    7.736
+   ],
+   [
+    2.849,
+    3.586,
+    5.55,
+    3.586
+   ],
+   [
+    6.42,
+    3.586,
+    6.633,
+    3.586
+   ],
+   [
+    6.633,
+    3.152,
+    6.633,
+    7.341
+   ],
+   [
+    6.633,
+    3.152,
+    7.067,
+    3.152
+   ],
+   [
+    8.007,
+    3.152,
+    8.544,
+    3.152
+   ],
+   [
+    6.633,
+    5.146,
+    7.065,
+    5.146
+   ],
+   [
+    7.865,
+    5.146,
+    8.544,
+    5.146
+   ],
+   [
+    6.633,
+    7.043,
+    8.544,
+    7.043
+   ],
+   [
+    0,
+    0.222,
+    0,
+    5.813
+   ]
+  ]
+ },
+ "waypoints": [
+  {
+   "id": "predsin",
+   "position": [
+    7.95,
+    0,
+    4
+   ],
+   "yaw": 90,
+   "roomId": "predsin",
+   "caption": "Vstup do bytu: předsíň asi 3,6 m² s vestavěnou skříní.",
+   "dwellS": 4,
+   "pitch": -4
+  },
+  {
+   "id": "koupelna",
+   "position": [
+    7.55,
+    0,
+    5.65
+   ],
+   "yaw": 180,
+   "roomId": "koupelna",
+   "caption": "Koupelna s WC asi 3,2 m²: sprchový kout se žlabem, závěsné WC, umyvadlo.",
+   "dwellS": 4,
+   "pitch": -5
+  },
+  {
+   "id": "kuchyn",
+   "position": [
+    8.55,
+    0,
+    2.6
+   ],
+   "yaw": 25,
+   "roomId": "obyvak",
+   "caption": "Kuchyňský kout s linkou po celé stěně a poloostrůvkem s barovými židlemi.",
+   "dwellS": 5,
+   "pitch": -4
+  },
+  {
+   "id": "obyvak",
+   "position": [
+    5.9,
+    0,
+    2.5
+   ],
+   "yaw": 90,
+   "roomId": "obyvak",
+   "caption": "Obývací pokoj asi 20,9 m², na konci prosklená stěna s dveřmi na terasu.",
+   "dwellS": 6,
+   "pitch": -3
+  },
+  {
+   "id": "loznice",
+   "position": [
+    4.2,
+    0,
+    4.6
+   ],
+   "yaw": 100,
+   "roomId": "loznice",
+   "caption": "Ložnice asi 12 m² s klimatizací a dveřmi na terasu.",
+   "dwellS": 5,
+   "pitch": -3
+  },
+  {
+   "id": "terasa",
+   "position": [
+    1.5,
+    0,
+    3.6
+   ],
+   "yaw": 15,
+   "roomId": "terasa",
+   "caption": "Krytá terasa asi 16,3 m² přístupná z obývacího pokoje i z ložnice.",
+   "dwellS": 6,
+   "pitch": -3
+  }
+ ],
+ "hotspots": [
+  {
+   "id": "hs-terasa",
+   "position": [
+    1.4,
+    1.2,
+    3
+   ],
+   "title": "Krytá terasa",
+   "text": "Terasa asi 16,3 m² s dlažbou na terčích, přístupná z obývacího pokoje i z ložnice.",
+   "kind": "info"
+  },
+  {
+   "id": "hs-kuchyn",
+   "position": [
+    9.3,
+    1.4,
+    1.3
+   ],
+   "title": "Kuchyňská linka",
+   "text": "Linka po celé stěně s indukční deskou, troubou, vestavnou mikrovlnkou a vysokými skříněmi; poloostrůvek s barovým pultem.",
+   "kind": "info"
+  },
+  {
+   "id": "hs-klimatizace",
+   "position": [
+    3.95,
+    2,
+    6.45
+   ],
+   "title": "Klimatizace",
+   "text": "V ložnici je nástěnná klimatizace (podle fotek a katalogového listu; ve 3D není zobrazena).",
+   "kind": "info"
+  },
+  {
+   "id": "hs-skrin-predsin",
+   "position": [
+    7,
+    1.5,
+    4.1
+   ],
+   "title": "Vestavěná skříň",
+   "text": "Vestavěná dubová skříň přes celou stěnu předsíně, s lavicí a háčky.",
+   "kind": "info"
+  },
+  {
+   "id": "hs-sprcha",
+   "position": [
+    8.1,
+    1.6,
+    6.5
+   ],
+   "title": "Sprchový kout",
+   "text": "Sprchový kout s posuvnými dveřmi a podlahovým žlabem, závěsné WC.",
+   "kind": "info"
+  },
+  {
+   "id": "hs-sklep-parkovani",
+   "position": [
+    8.3,
+    1.5,
+    3.7
+   ],
+   "title": "Sklep a parkování",
+   "text": "Podle podkladů makléře k bytu patří sklep a parkovací místo v garáži domu (ve 3D nejsou, bez fotek v prohlídce).",
+   "kind": "info"
+  },
+  {
+   "id": "hs-zarizeni",
+   "position": [
+    5.05,
+    1.35,
+    2.85
+   ],
+   "title": "Zařízení bytu",
+   "text": "Nábytek ve 3D odpovídá fotkám obývaného bytu a je jen ilustrací. Podle podkladů makléře je součástí kuchyň a klimatizace; ostatní zařízení není předmětem prodeje.",
+   "kind": "info"
+  }
+ ],
+ "apartment": {
+  "wallHeight": 2.62,
+  "railingHeight": 1.05,
+  "rooms": [
+   {
+    "id": "obyvak",
+    "name": "Obývací pokoj s kuchyňským koutem",
+    "areaM2": 20.7,
+    "polygon": [
+     [
+      2.894,
+      0.292
+     ],
+     [
+      9.722,
+      0.292
+     ],
+     [
+      9.722,
+      3.085
+     ],
+     [
+      6.558,
+      3.085
+     ],
+     [
+      6.558,
+      3.541
+     ],
+     [
+      2.894,
+      3.541
+     ]
+    ],
+    "floor": "oak",
+    "wall": "neutral",
+    "lightId": "sw-obyvak",
+    "floorAngle": 0,
+    "lights": [
+     {
+      "x": 4.9,
+      "z": 1.9,
+      "y": 2.55,
+      "intensity": 14,
+      "distance": 6.5,
+      "fixture": "ceiling"
+     },
+     {
+      "x": 7.45,
+      "z": 1.15,
+      "y": 1.85,
+      "intensity": 7,
+      "distance": 4.5,
+      "fixture": "none"
+     },
+     {
+      "x": 8.9,
+      "z": 2,
+      "y": 2.4,
+      "intensity": 5,
+      "distance": 4,
+      "fixture": "none"
+     }
+    ]
+   },
+   {
+    "id": "loznice",
+    "name": "Ložnice",
+    "areaM2": 11.1,
+    "polygon": [
+     [
+      2.894,
+      3.631
+     ],
+     [
+      6.558,
+      3.631
+     ],
+     [
+      6.558,
+      7.072
+     ],
+     [
+      3.119,
+      6.412
+     ],
+     [
+      3.119,
+      5.21
+     ],
+     [
+      2.894,
+      5.21
+     ]
+    ],
+    "floor": "oak",
+    "wall": "neutral",
+    "lightId": "sw-loznice",
+    "floorAngle": 0,
+    "lights": [
+     {
+      "x": 4.8,
+      "z": 5.2,
+      "y": 2.55,
+      "intensity": 14,
+      "distance": 6,
+      "fixture": "ceiling"
+     }
+    ]
+   },
+   {
+    "id": "predsin",
+    "name": "Předsíň",
+    "areaM2": 3.4,
+    "polygon": [
+     [
+      6.708,
+      3.219
+     ],
+     [
+      8.544,
+      3.219
+     ],
+     [
+      8.544,
+      5.074
+     ],
+     [
+      6.708,
+      5.074
+     ]
+    ],
+    "floor": "oak",
+    "wall": "neutral",
+    "lightId": "sw-predsin",
+    "dayLight": true,
+    "floorAngle": 0
+   },
+   {
+    "id": "koupelna",
+    "name": "Koupelna s WC",
+    "areaM2": 3.3,
+    "polygon": [
+     [
+      6.708,
+      5.218
+     ],
+     [
+      8.544,
+      5.218
+     ],
+     [
+      8.544,
+      6.996
+     ],
+     [
+      6.708,
+      6.996
+     ]
+    ],
+    "floor": "tiles",
+    "lightId": "sw-koupelna",
+    "dayLight": true,
+    "ceilingHeight": 2.2
+   },
+   {
+    "id": "terasa",
+    "name": "Terasa",
+    "areaM2": 16.2,
+    "polygon": [
+     [
+      0,
+      0.222
+     ],
+     [
+      2.804,
+      0.222
+     ],
+     [
+      2.804,
+      5.21
+     ],
+     [
+      2.579,
+      5.21
+     ],
+     [
+      2.579,
+      6.308
+     ],
+     [
+      0,
+      5.813
+     ]
+    ],
+    "floor": "terrace",
+    "wall": "white",
+    "outdoor": true,
+    "ceiling": true,
+    "lights": [
+     {
+      "x": 1.8,
+      "z": 6.08,
+      "y": 1.8,
+      "intensity": 4,
+      "distance": 4,
+      "fixture": "wall"
+     }
+    ]
+   }
+  ],
+  "walls": [
+   {
+    "id": "fasada-terasa",
+    "a": [
+     2.849,
+     0.147
+    ],
+    "b": [
+     2.849,
+     5.21
+    ],
+    "thickness": 0.09,
+    "exterior": true,
+    "openings": [
+     {
+      "offset": 0.762,
+      "width": 0.835,
+      "sill": 0.05,
+      "height": 2.3,
+      "kind": "window"
+     },
+     {
+      "offset": 1.656,
+      "width": 0.75,
+      "sill": 0,
+      "height": 2.35,
+      "kind": "door",
+      "id": "dv-terasa-obyvak",
+      "hinge": "a",
+      "swing": -1,
+      "glazed": true,
+      "open": true
+     },
+     {
+      "offset": 2.53,
+      "width": 0.793,
+      "sill": 0.05,
+      "height": 2.3,
+      "kind": "window"
+     },
+     {
+      "offset": 4.003,
+      "width": 0.8,
+      "sill": 0,
+      "height": 2.3,
+      "kind": "door",
+      "id": "dv-terasa-loznice",
+      "hinge": "a",
+      "swing": -1,
+      "glazed": true,
+      "open": true
+     },
+     {
+      "offset": 4.757,
+      "width": 0.5,
+      "sill": 0.05,
+      "height": 2.25,
+      "kind": "window"
+     }
+    ]
+   },
+   {
+    "id": "loznice-zapad-zdivo",
+    "a": [
+     2.849,
+     5.21
+    ],
+    "b": [
+     2.849,
+     6.615
+    ],
+    "thickness": 0.54,
+    "exterior": true,
+    "openings": [],
+    "ends": [
+     0,
+     -0.3
+    ]
+   },
+   {
+    "id": "sever-obyvak",
+    "a": [
+     2.849,
+     0.147
+    ],
+    "b": [
+     10.016,
+     0.147
+    ],
+    "thickness": 0.29,
+    "exterior": true,
+    "openings": []
+   },
+   {
+    "id": "terasa-sever",
+    "a": [
+     0,
+     0.147
+    ],
+    "b": [
+     2.849,
+     0.147
+    ],
+    "thickness": 0.15,
+    "exterior": true,
+    "openings": []
+   },
+   {
+    "id": "kuchyn-vychod",
+    "a": [
+     10.016,
+     0.147
+    ],
+    "b": [
+     10.016,
+     3.225
+    ],
+    "thickness": 0.587,
+    "exterior": true,
+    "openings": []
+   },
+   {
+    "id": "kuchyn-jih",
+    "a": [
+     8.69,
+     3.225
+    ],
+    "b": [
+     10.016,
+     3.225
+    ],
+    "thickness": 0.28,
+    "exterior": true,
+    "openings": []
+   },
+   {
+    "id": "predsin-vychod",
+    "a": [
+     8.69,
+     3.225
+    ],
+    "b": [
+     8.69,
+     7.736
+    ],
+    "thickness": 0.291,
+    "exterior": true,
+    "openings": [
+     {
+      "offset": 0.78,
+      "width": 0.95,
+      "sill": 0,
+      "height": 2.1,
+      "kind": "door",
+      "hinge": "a",
+      "swing": 1,
+      "flush": true,
+      "label": "Vstupní dveře bytu",
+      "note": "Vstupní dveře do bytu (ve 3D zavřené). Společná chodba a schodiště domu v modelu nejsou, prohlídka se odehrává uvnitř bytu."
+     }
+    ],
+    "ends": [
+     0,
+     -0.275
+    ]
+   },
+   {
+    "id": "fasada-jih",
+    "a": [
+     -0.047,
+     6.058
+    ],
+    "b": [
+     8.69,
+     7.736
+    ],
+    "thickness": 0.5,
+    "exterior": true,
+    "openings": []
+   },
+   {
+    "id": "pricka-obyvak-loznice",
+    "a": [
+     2.849,
+     3.586
+    ],
+    "b": [
+     6.633,
+     3.586
+    ],
+    "thickness": 0.09,
+    "exterior": false,
+    "openings": [
+     {
+      "offset": 3.136,
+      "width": 0.87,
+      "sill": 0,
+      "height": 2.1,
+      "kind": "door",
+      "id": "dv-loznice",
+      "hinge": "b",
+      "swing": 1,
+      "open": true,
+      "flush": true
+     }
+    ]
+   },
+   {
+    "id": "pricka-loznice-predsin",
+    "a": [
+     6.633,
+     3.152
+    ],
+    "b": [
+     6.633,
+     7.341
+    ],
+    "thickness": 0.15,
+    "exterior": false,
+    "openings": []
+   },
+   {
+    "id": "pricka-obyvak-predsin",
+    "a": [
+     6.633,
+     3.152
+    ],
+    "b": [
+     8.544,
+     3.152
+    ],
+    "thickness": 0.134,
+    "exterior": false,
+    "openings": [
+     {
+      "offset": 0.904,
+      "width": 0.94,
+      "sill": 0,
+      "height": 2.1,
+      "kind": "door",
+      "id": "dv-obyvak",
+      "hinge": "b",
+      "swing": -1,
+      "open": true,
+      "flush": true
+     }
+    ]
+   },
+   {
+    "id": "pricka-predsin-koupelna",
+    "a": [
+     6.633,
+     5.146
+    ],
+    "b": [
+     8.544,
+     5.146
+    ],
+    "thickness": 0.144,
+    "exterior": false,
+    "openings": [
+     {
+      "offset": 0.832,
+      "width": 0.8,
+      "sill": 0,
+      "height": 2.1,
+      "kind": "door",
+      "id": "dv-koupelna",
+      "hinge": "a",
+      "swing": -1,
+      "open": true,
+      "flush": true
+     }
+    ]
+   },
+   {
+    "id": "koupelna-jih",
+    "a": [
+     6.633,
+     7.043
+    ],
+    "b": [
+     8.544,
+     7.043
+    ],
+    "thickness": 0.094,
+    "exterior": false,
+    "openings": [],
+    "surfaces": [
+     {
+      "side": "back",
+      "finish": "sandstone"
+     }
+    ]
+   }
+  ],
+  "switches": [
+   {
+    "id": "sw-obyvak",
+    "roomId": "obyvak",
+    "position": [
+     6.87,
+     3.085
+    ],
+    "normal": [
+     0,
+     -1
+    ]
+   },
+   {
+    "id": "sw-loznice",
+    "roomId": "loznice",
+    "position": [
+     5.42,
+     3.631
+    ],
+    "normal": [
+     0,
+     1
+    ]
+   },
+   {
+    "id": "sw-predsin",
+    "roomId": "predsin",
+    "position": [
+     8,
+     5.074
+    ],
+    "normal": [
+     0,
+     -1
+    ],
+    "y": 1.15
+   },
+   {
+    "id": "sw-koupelna",
+    "roomId": "koupelna",
+    "position": [
+     8.02,
+     5.218
+    ],
+    "normal": [
+     0,
+     1
+    ]
+   }
+  ],
+  "railings": [
+   {
+    "a": [
+     0,
+     0.222
+    ],
+    "b": [
+     0,
+     5.813
+    ],
+    "style": "bars",
+    "color": "#dcdcd8"
+   }
+  ],
+  "surroundings": "villas",
+  "furniture": [
+   {
+    "id": "predsin-skrin",
+    "kind": "wardrobe",
+    "roomId": "predsin",
+    "x": 6.92,
+    "z": 3.83,
+    "facing": "E",
+    "w": 1.1,
+    "d": 0.42,
+    "h": 2.6,
+    "variant": "plain",
+    "color": 10783871
+   },
+   {
+    "id": "predsin-komoda",
+    "kind": "dresser",
+    "roomId": "predsin",
+    "x": 8.22,
+    "z": 4.9,
+    "facing": "N",
+    "w": 0.5,
+    "d": 0.35,
+    "h": 0.95,
+    "color": 14198134,
+    "decor": false
+   },
+   {
+    "id": "predsin-zrcadlo",
+    "kind": "mirror",
+    "roomId": "predsin",
+    "x": 8.22,
+    "z": 5.05,
+    "facing": "N",
+    "w": 0.45,
+    "d": 0.04,
+    "h": 0.6,
+    "y": 1.55,
+    "color": 14198134
+   },
+   {
+    "id": "koupelna-umyvadlo",
+    "kind": "vanity",
+    "roomId": "koupelna",
+    "x": 6.94,
+    "z": 5.62,
+    "facing": "E",
+    "w": 0.65,
+    "d": 0.46,
+    "h": 0.85,
+    "color": 11700845
+   },
+   {
+    "id": "koupelna-zrcadlo",
+    "kind": "mirror",
+    "roomId": "koupelna",
+    "x": 6.73,
+    "z": 5.62,
+    "facing": "E",
+    "w": 0.6,
+    "d": 0.04,
+    "h": 0.6,
+    "y": 1.5
+   },
+   {
+    "id": "koupelna-radiator",
+    "kind": "towelRadiator",
+    "roomId": "koupelna",
+    "x": 6.75,
+    "z": 6.22,
+    "facing": "E",
+    "w": 0.5,
+    "d": 0.1,
+    "h": 1.1,
+    "y": 0.85,
+    "variant": "bare",
+    "color": 15658730
+   },
+   {
+    "id": "koupelna-wc",
+    "kind": "toilet",
+    "roomId": "koupelna",
+    "x": 7.35,
+    "z": 6.7,
+    "facing": "N",
+    "w": 0.37,
+    "d": 0.55,
+    "variant": "wallhung",
+    "color": 15592943
+   },
+   {
+    "id": "koupelna-sprcha",
+    "kind": "bathtub",
+    "roomId": "koupelna",
+    "x": 8.144,
+    "z": 6.596,
+    "facing": "W",
+    "w": 0.8,
+    "d": 0.8,
+    "h": 2,
+    "variant": "walkin"
+   },
+   {
+    "id": "koupelna-pracka",
+    "kind": "washer",
+    "roomId": "koupelna",
+    "x": 8.24,
+    "z": 5.53,
+    "facing": "S",
+    "w": 0.6,
+    "d": 0.6,
+    "h": 0.85
+   },
+   {
+    "id": "kuchyn-linka",
+    "kind": "kitchenRun",
+    "roomId": "obyvak",
+    "x": 9.42,
+    "z": 1.386,
+    "facing": "W",
+    "w": 2.188,
+    "d": 0.6,
+    "h": 0.9,
+    "parts": [
+     "sink",
+     "hob",
+     "oven",
+     "uppers",
+     "backsplash"
+    ],
+    "handleless": true,
+    "color": 6843506,
+    "topColor": 9209730,
+    "backColor": 11844288,
+    "handleColor": 1973790,
+    "plinthColor": 2763565,
+    "sinkAt": -0.494,
+    "hobAt": 0.406
+   },
+   {
+    "id": "kuchyn-vysoke",
+    "kind": "kitchenRun",
+    "roomId": "obyvak",
+    "x": 9.42,
+    "z": 2.78,
+    "facing": "W",
+    "w": 0.6,
+    "d": 0.6,
+    "h": 2.62,
+    "variant": "tower",
+    "parts": [],
+    "color": 6843506,
+    "handleColor": 1973790
+   },
+   {
+    "id": "kuchyn-poloostruvek",
+    "kind": "island",
+    "roomId": "obyvak",
+    "x": 7.915,
+    "z": 1.2,
+    "facing": "W",
+    "w": 1.8,
+    "d": 0.65,
+    "h": 0.9,
+    "color": 6843506,
+    "topColor": 9209730
+   },
+   {
+    "id": "obyvak-barova-zidle-1",
+    "kind": "barStool",
+    "roomId": "obyvak",
+    "x": 6.95,
+    "z": 0.85,
+    "facing": "E",
+    "w": 0.42,
+    "d": 0.45,
+    "h": 1,
+    "color": 2831424
+   },
+   {
+    "id": "obyvak-barova-zidle-2",
+    "kind": "barStool",
+    "roomId": "obyvak",
+    "x": 6.95,
+    "z": 1.45,
+    "facing": "E",
+    "w": 0.42,
+    "d": 0.45,
+    "h": 1,
+    "color": 2831424
+   },
+   {
+    "id": "obyvak-psaci-stul",
+    "kind": "desk",
+    "roomId": "obyvak",
+    "x": 5.85,
+    "z": 0.55,
+    "facing": "S",
+    "w": 1,
+    "d": 0.5,
+    "h": 0.76,
+    "color": 13809046,
+    "decor": false
+   },
+   {
+    "id": "obyvak-kancelarska-zidle",
+    "kind": "deskChair",
+    "roomId": "obyvak",
+    "x": 5.85,
+    "z": 1.05,
+    "facing": "N",
+    "w": 0.5,
+    "d": 0.5,
+    "color": 10132128
+   },
+   {
+    "id": "obyvak-sedacka",
+    "kind": "sofa",
+    "roomId": "obyvak",
+    "x": 3.72,
+    "z": 0.75,
+    "facing": "S",
+    "w": 1.5,
+    "d": 0.9,
+    "h": 0.85,
+    "variant": "noarm-r",
+    "color": 12434621,
+    "decor": false
+   },
+   {
+    "id": "obyvak-sedacka-lehatko",
+    "kind": "sofa",
+    "roomId": "obyvak",
+    "x": 4.975,
+    "z": 1.125,
+    "facing": "S",
+    "w": 0.75,
+    "d": 1.65,
+    "h": 0.85,
+    "variant": "chaise-l",
+    "color": 12434621,
+    "decor": false
+   },
+   {
+    "id": "obyvak-konferencni-stolek",
+    "kind": "coffeeTable",
+    "roomId": "obyvak",
+    "x": 4.18,
+    "z": 1.85,
+    "facing": "E",
+    "w": 0.5,
+    "d": 0.8,
+    "h": 0.42,
+    "color": 13809046
+   },
+   {
+    "id": "obyvak-koberec",
+    "kind": "rug",
+    "roomId": "obyvak",
+    "x": 4.3,
+    "z": 1.9,
+    "facing": "N",
+    "w": 2,
+    "d": 1.6,
+    "color": 6843249
+   },
+   {
+    "id": "obyvak-tv-dil",
+    "kind": "sideTable",
+    "roomId": "obyvak",
+    "x": 4.125,
+    "z": 3.341,
+    "facing": "N",
+    "w": 1.45,
+    "d": 0.4,
+    "h": 0.55,
+    "color": 14200970,
+    "decor": false
+   },
+   {
+    "id": "obyvak-tv-skrinka",
+    "kind": "wardrobe",
+    "roomId": "obyvak",
+    "x": 5.075,
+    "z": 3.341,
+    "facing": "N",
+    "w": 0.45,
+    "d": 0.4,
+    "h": 1.9,
+    "variant": "plain",
+    "color": 3092530
+   },
+   {
+    "id": "obyvak-police-1",
+    "kind": "shelf",
+    "roomId": "obyvak",
+    "x": 4.35,
+    "z": 0.4,
+    "facing": "S",
+    "w": 1.2,
+    "d": 0.22,
+    "y": 1.45,
+    "variant": "books",
+    "color": 2763308
+   },
+   {
+    "id": "obyvak-police-2",
+    "kind": "shelf",
+    "roomId": "obyvak",
+    "x": 4,
+    "z": 0.4,
+    "facing": "S",
+    "w": 1.2,
+    "d": 0.22,
+    "y": 1.75,
+    "variant": "books",
+    "color": 2763308
+   },
+   {
+    "id": "obyvak-stojaci-lampa",
+    "kind": "floorLamp",
+    "roomId": "obyvak",
+    "x": 6.46,
+    "z": 3.4,
+    "facing": "N",
+    "w": 0.18,
+    "d": 0.18,
+    "h": 1.6,
+    "color": 1973790
+   },
+   {
+    "id": "obyvak-zaves-sever",
+    "kind": "curtain",
+    "roomId": "obyvak",
+    "x": 2.99,
+    "z": 0.75,
+    "facing": "E",
+    "w": 1,
+    "d": 0.05,
+    "h": 2.3,
+    "variant": "left",
+    "color": 11773599
+   },
+   {
+    "id": "obyvak-zaves-jih",
+    "kind": "curtain",
+    "roomId": "obyvak",
+    "x": 2.99,
+    "z": 3.1,
+    "facing": "E",
+    "w": 1,
+    "d": 0.05,
+    "h": 2.3,
+    "variant": "right",
+    "color": 11773599
+   },
+   {
+    "id": "obyvak-rostlina-1",
+    "kind": "plant",
+    "roomId": "obyvak",
+    "x": 5.43,
+    "z": 3.3,
+    "facing": "N",
+    "w": 0.35,
+    "d": 0.35,
+    "h": 1,
+    "variant": "pot"
+   },
+   {
+    "id": "obyvak-rostlina-2",
+    "kind": "plant",
+    "roomId": "obyvak",
+    "x": 3.25,
+    "z": 2.55,
+    "facing": "N",
+    "w": 0.4,
+    "d": 0.4,
+    "h": 1.2,
+    "variant": "pot"
+   },
+   {
+    "id": "obyvak-rostlina-3",
+    "kind": "plant",
+    "roomId": "obyvak",
+    "x": 3.12,
+    "z": 3.3,
+    "facing": "N",
+    "w": 0.4,
+    "d": 0.4,
+    "h": 1.3,
+    "variant": "tall"
+   },
+   {
+    "id": "obyvak-svitidlo-bar-1",
+    "kind": "pendant",
+    "roomId": "obyvak",
+    "x": 7.45,
+    "z": 0.82,
+    "facing": "E",
+    "w": 0.08,
+    "d": 0.08,
+    "y": 1.9,
+    "variant": "bulb",
+    "color": 1973790
+   },
+   {
+    "id": "obyvak-svitidlo-bar-2",
+    "kind": "pendant",
+    "roomId": "obyvak",
+    "x": 7.45,
+    "z": 1.04,
+    "facing": "E",
+    "w": 0.08,
+    "d": 0.08,
+    "y": 1.9,
+    "variant": "bulb",
+    "color": 1973790
+   },
+   {
+    "id": "obyvak-svitidlo-bar-3",
+    "kind": "pendant",
+    "roomId": "obyvak",
+    "x": 7.45,
+    "z": 1.26,
+    "facing": "E",
+    "w": 0.08,
+    "d": 0.08,
+    "y": 1.9,
+    "variant": "bulb",
+    "color": 1973790
+   },
+   {
+    "id": "obyvak-svitidlo-bar-4",
+    "kind": "pendant",
+    "roomId": "obyvak",
+    "x": 7.45,
+    "z": 1.48,
+    "facing": "E",
+    "w": 0.08,
+    "d": 0.08,
+    "y": 1.9,
+    "variant": "bulb",
+    "color": 1973790
+   },
+   {
+    "id": "loznice-postel",
+    "kind": "bed",
+    "roomId": "loznice",
+    "x": 5.53,
+    "z": 5.85,
+    "facing": "W",
+    "w": 1.45,
+    "d": 2.05,
+    "h": 1,
+    "variant": "upholstered",
+    "color": 9736856,
+    "decor": false
+   },
+   {
+    "id": "loznice-stolek-sever",
+    "kind": "nightstand",
+    "roomId": "loznice",
+    "x": 6.38,
+    "z": 4.72,
+    "facing": "W",
+    "w": 0.4,
+    "d": 0.3,
+    "h": 0.5,
+    "color": 3026737
+   },
+   {
+    "id": "loznice-stolek-jih",
+    "kind": "nightstand",
+    "roomId": "loznice",
+    "x": 6.38,
+    "z": 6.82,
+    "facing": "W",
+    "w": 0.4,
+    "d": 0.3,
+    "h": 0.5,
+    "variant": "lamp",
+    "color": 3026737
+   },
+   {
+    "id": "loznice-obraz",
+    "kind": "painting",
+    "roomId": "loznice",
+    "x": 6.535,
+    "z": 5.87,
+    "facing": "W",
+    "w": 1.2,
+    "d": 0.04,
+    "h": 0.7,
+    "y": 1.65,
+    "image": "zarizeni/obraz-loznice.jpg",
+    "color": 15263976
+   },
+   {
+    "id": "loznice-skrin",
+    "kind": "wardrobe",
+    "roomId": "loznice",
+    "x": 4.6,
+    "z": 3.93,
+    "facing": "S",
+    "w": 1.9,
+    "d": 0.6,
+    "h": 2.2,
+    "variant": "sliding",
+    "color": 1315860
+   },
+   {
+    "id": "loznice-stul",
+    "kind": "desk",
+    "roomId": "loznice",
+    "x": 3.42,
+    "z": 5.78,
+    "facing": "E",
+    "w": 1.2,
+    "d": 0.6,
+    "h": 0.75,
+    "color": 2763308
+   },
+   {
+    "id": "loznice-zidle",
+    "kind": "deskChair",
+    "roomId": "loznice",
+    "x": 4.05,
+    "z": 5.75,
+    "facing": "W",
+    "w": 0.5,
+    "d": 0.5,
+    "color": 2763308
+   },
+   {
+    "id": "loznice-police-1",
+    "kind": "shelf",
+    "roomId": "loznice",
+    "x": 3.225,
+    "z": 5.85,
+    "facing": "E",
+    "w": 0.4,
+    "d": 0.2,
+    "y": 1.45,
+    "color": 13809046
+   },
+   {
+    "id": "loznice-police-2",
+    "kind": "shelf",
+    "roomId": "loznice",
+    "x": 3.225,
+    "z": 5.85,
+    "facing": "E",
+    "w": 0.4,
+    "d": 0.2,
+    "y": 1.95,
+    "color": 13809046
+   },
+   {
+    "id": "loznice-zaves",
+    "kind": "curtain",
+    "roomId": "loznice",
+    "x": 2.99,
+    "z": 5,
+    "facing": "E",
+    "w": 0.8,
+    "d": 0.05,
+    "h": 2.3,
+    "variant": "right",
+    "color": 11773599
+   },
+   {
+    "id": "terasa-pohovka-sever",
+    "kind": "sofa",
+    "roomId": "terasa",
+    "x": 1.45,
+    "z": 0.62,
+    "facing": "S",
+    "w": 1.4,
+    "d": 0.75,
+    "h": 0.75,
+    "color": 11578800,
+    "decor": false
+   },
+   {
+    "id": "terasa-pohovka-zabradli",
+    "kind": "sofa",
+    "roomId": "terasa",
+    "x": 0.45,
+    "z": 1.7,
+    "facing": "E",
+    "w": 1.4,
+    "d": 0.75,
+    "h": 0.75,
+    "color": 11578800,
+    "decor": false
+   },
+   {
+    "id": "terasa-stolek",
+    "kind": "coffeeTable",
+    "roomId": "terasa",
+    "x": 1.45,
+    "z": 1.4,
+    "facing": "N",
+    "w": 0.9,
+    "d": 0.55,
+    "h": 0.45,
+    "color": 1973790
+   },
+   {
+    "id": "terasa-lavice",
+    "kind": "bench",
+    "roomId": "terasa",
+    "x": 1.55,
+    "z": 2,
+    "facing": "N",
+    "w": 0.8,
+    "d": 0.4,
+    "h": 0.42,
+    "variant": "cushion",
+    "color": 11578800,
+    "decor": false
+   },
+   {
+    "id": "terasa-skladaci-stolek",
+    "kind": "sideTable",
+    "roomId": "terasa",
+    "x": 0.65,
+    "z": 5.65,
+    "facing": "N",
+    "w": 0.45,
+    "d": 0.45,
+    "h": 0.7,
+    "color": 11569752,
+    "decor": false
+   },
+   {
+    "id": "terasa-lamely",
+    "kind": "panel",
+    "roomId": "terasa",
+    "x": 2.2,
+    "z": 6.2,
+    "facing": "N",
+    "w": 0.6,
+    "d": 0.05,
+    "h": 2.2,
+    "color": 12417862,
+    "turn": -10.86
+   }
+  ],
+  "screens": [
+   {
+    "id": "tv-obyvak",
+    "title": "Video prohlídka",
+    "video": "video/prohlidka.mp4",
+    "videoSd": "video/prohlidka-720.mp4",
+    "poster": "video/prohlidka-poster.jpg",
+    "roomId": "obyvak",
+    "x": 4.15,
+    "z": 3.541,
+    "facing": "N",
+    "size": 65,
+    "y": 0.6
+   }
+  ]
+ },
+ "photos": [
+  {
+   "id": "foto-01",
+   "url": "fotky/foto-01.jpg",
+   "thumb": "fotky/mini-01.jpg",
+   "roomId": "predsin",
+   "position": [
+    7.462,
+    1.377,
+    2.933
+   ],
+   "yaw": -161.26,
+   "hfov": 96.8,
+   "offsetY": -0.0417,
+   "aspect": 1.5038,
+   "title": "Předsíň",
+   "caption": "Předsíň asi 3,6 m² se vstupními dveřmi, komodou se zrcadlem a dveřmi do koupelny.",
+   "doors": {
+    "open": [
+     "dv-loznice",
+     "dv-obyvak",
+     "dv-terasa-loznice",
+     "dv-terasa-obyvak"
+    ],
+    "closed": [
+     "dv-koupelna"
+    ]
+   }
+  },
+  {
+   "id": "foto-02",
+   "url": "fotky/foto-02.jpg",
+   "thumb": "fotky/mini-02.jpg",
+   "roomId": "predsin",
+   "position": [
+    8.339,
+    1.191,
+    3.968
+   ],
+   "yaw": 103.21,
+   "hfov": 97.48,
+   "offsetY": -0.0104,
+   "aspect": 1.5009,
+   "title": "Předsíň – vestavěná skříň",
+   "caption": "Vestavěná skříň s lavicí a věšákem přes celou stěnu předsíně.",
+   "doors": {
+    "open": [
+     "dv-loznice",
+     "dv-obyvak",
+     "dv-terasa-loznice",
+     "dv-terasa-obyvak"
+    ],
+    "closed": [
+     "dv-koupelna"
+    ]
+   }
+  },
+  {
+   "id": "foto-03",
+   "url": "fotky/foto-03.jpg",
+   "thumb": "fotky/mini-03.jpg",
+   "roomId": "koupelna",
+   "position": [
+    7.421,
+    0.998,
+    4.937
+   ],
+   "yaw": 179.45,
+   "hfov": 97,
+   "offsetY": -0.0193,
+   "aspect": 1.5009,
+   "title": "Koupelna s WC",
+   "caption": "Koupelna s WC asi 3,2 m²: sprchový kout se žlabem, závěsné WC, umyvadlo se skříňkou a místo pro pračku.",
+   "doors": {
+    "open": [
+     "dv-koupelna",
+     "dv-loznice",
+     "dv-obyvak",
+     "dv-terasa-loznice",
+     "dv-terasa-obyvak"
+    ],
+    "closed": []
+   }
+  },
+  {
+   "id": "foto-04",
+   "url": "fotky/foto-04.jpg",
+   "thumb": "fotky/mini-04.jpg",
+   "roomId": "koupelna",
+   "position": [
+    7.105,
+    1.279,
+    5.626
+   ],
+   "yaw": -141.44,
+   "hfov": 97.69,
+   "offsetY": -0.0865,
+   "aspect": 1.5009,
+   "title": "Sprchový kout",
+   "caption": "Sprchový kout s posuvnými dveřmi a podlahovým žlabem.",
+   "doors": {
+    "open": [
+     "dv-koupelna",
+     "dv-loznice",
+     "dv-obyvak",
+     "dv-terasa-loznice",
+     "dv-terasa-obyvak"
+    ],
+    "closed": []
+   }
+  },
+  {
+   "id": "foto-05",
+   "url": "fotky/foto-05.jpg",
+   "thumb": "fotky/mini-05.jpg",
+   "roomId": "koupelna",
+   "position": [
+    6.979,
+    1.438,
+    6.522
+   ],
+   "yaw": -26.97,
+   "hfov": 97.2,
+   "offsetY": -0.1081,
+   "aspect": 1.5009,
+   "title": "Koupelna ke dveřím",
+   "caption": "Koupelna od sprchy ke dveřím, pračka stojí u dveří.",
+   "doors": {
+    "open": [
+     "dv-loznice",
+     "dv-obyvak",
+     "dv-terasa-loznice",
+     "dv-terasa-obyvak"
+    ],
+    "closed": [
+     "dv-koupelna"
+    ]
+   }
+  },
+  {
+   "id": "foto-06",
+   "url": "fotky/foto-06.jpg",
+   "thumb": "fotky/mini-06.jpg",
+   "roomId": "obyvak",
+   "position": [
+    8.668,
+    1.593,
+    2.254
+   ],
+   "yaw": 82.3,
+   "hfov": 97.29,
+   "offsetY": -0.04,
+   "aspect": 1.5066,
+   "title": "Obývací pokoj s kuchyní",
+   "caption": "Obývací pokoj s kuchyňským koutem asi 20,9 m², na konci prosklená stěna s dveřmi na terasu.",
+   "doors": {
+    "open": [
+     "dv-koupelna",
+     "dv-obyvak",
+     "dv-terasa-loznice"
+    ],
+    "closed": [
+     "dv-loznice",
+     "dv-terasa-obyvak"
+    ],
+    "angles": {
+     "dv-obyvak": 165
+    }
+   },
+   "fadeS": 0.25
+  },
+  {
+   "id": "foto-07",
+   "url": "fotky/foto-07.jpg",
+   "thumb": "fotky/mini-07.jpg",
+   "roomId": "obyvak",
+   "position": [
+    8.959,
+    1.634,
+    0.964
+   ],
+   "yaw": 129.89,
+   "hfov": 96.73,
+   "offsetY": -0.0381,
+   "aspect": 1.5009,
+   "title": "Obývací pokoj od kuchyně",
+   "caption": "Pohled od kuchyně ke vstupu z předsíně, dveřím do ložnice a na terasu.",
+   "doors": {
+    "open": [
+     "dv-koupelna",
+     "dv-obyvak",
+     "dv-terasa-loznice"
+    ],
+    "closed": [
+     "dv-loznice",
+     "dv-terasa-obyvak"
+    ],
+    "angles": {
+     "dv-obyvak": 165
+    }
+   },
+   "fadeS": 0.25
+  },
+  {
+   "id": "foto-08",
+   "url": "fotky/foto-08.jpg",
+   "thumb": "fotky/mini-08.jpg",
+   "roomId": "obyvak",
+   "position": [
+    8.864,
+    1.264,
+    2.395
+   ],
+   "yaw": 8.94,
+   "hfov": 96.94,
+   "offsetY": -0.0486,
+   "aspect": 1.5009,
+   "title": "Kuchyňská linka",
+   "caption": "Kuchyňská linka s dřezem, indukční deskou a vestavnou mikrovlnkou.",
+   "doors": {
+    "open": [
+     "dv-koupelna",
+     "dv-loznice",
+     "dv-obyvak",
+     "dv-terasa-loznice"
+    ],
+    "closed": [
+     "dv-terasa-obyvak"
+    ],
+    "angles": {
+     "dv-obyvak": 165
+    }
+   }
+  },
+  {
+   "id": "foto-09",
+   "url": "fotky/foto-09.jpg",
+   "thumb": "fotky/mini-09.jpg",
+   "roomId": "obyvak",
+   "position": [
+    6.845,
+    1.214,
+    2.407
+   ],
+   "yaw": -47.52,
+   "hfov": 96.09,
+   "offsetY": 0.0156,
+   "aspect": 1.5023,
+   "title": "Kuchyňský kout",
+   "caption": "Kuchyňský kout s poloostrůvkem a barovým pultem.",
+   "doors": {
+    "open": [
+     "dv-koupelna",
+     "dv-loznice",
+     "dv-obyvak",
+     "dv-terasa-loznice"
+    ],
+    "closed": [
+     "dv-terasa-obyvak"
+    ],
+    "angles": {
+     "dv-obyvak": 165
+    }
+   }
+  },
+  {
+   "id": "foto-10",
+   "url": "fotky/foto-10.jpg",
+   "thumb": "fotky/mini-10.jpg",
+   "roomId": "obyvak",
+   "position": [
+    7.503,
+    1.685,
+    2.382
+   ],
+   "yaw": 16.8,
+   "hfov": 109.85,
+   "offsetY": -0.0724,
+   "aspect": 1.5009,
+   "title": "Pracovní kout a bar",
+   "caption": "Pracovní kout s psacím stolem a barový pult u kuchyně.",
+   "doors": {
+    "open": [
+     "dv-koupelna",
+     "dv-loznice",
+     "dv-obyvak",
+     "dv-terasa-loznice"
+    ],
+    "closed": [
+     "dv-terasa-obyvak"
+    ],
+    "angles": {
+     "dv-obyvak": 165
+    }
+   }
+  },
+  {
+   "id": "foto-11",
+   "url": "fotky/foto-11.jpg",
+   "thumb": "fotky/mini-11.jpg",
+   "roomId": "obyvak",
+   "position": [
+    4.946,
+    1.457,
+    2.465
+   ],
+   "yaw": -48.52,
+   "hfov": 96.85,
+   "offsetY": -0.0076,
+   "aspect": 1.5038,
+   "title": "Kuchyně",
+   "caption": "Kuchyňská linka po celé stěně s vysokými skříněmi a poloostrůvkem.",
+   "doors": {
+    "open": [
+     "dv-koupelna",
+     "dv-loznice",
+     "dv-obyvak",
+     "dv-terasa-loznice"
+    ],
+    "closed": [
+     "dv-terasa-obyvak"
+    ],
+    "angles": {
+     "dv-obyvak": 165
+    }
+   }
+  },
+  {
+   "id": "foto-12",
+   "url": "fotky/foto-12.jpg",
+   "thumb": "fotky/mini-12.jpg",
+   "roomId": "obyvak",
+   "position": [
+    3.099,
+    1.19,
+    3.029
+   ],
+   "yaw": -55.61,
+   "hfov": 97.13,
+   "offsetY": -0.0212,
+   "aspect": 1.5009,
+   "title": "Obývací část",
+   "caption": "Obývací část s rohovou sedačkou, za ní kuchyňský kout.",
+   "doors": {
+    "open": [
+     "dv-koupelna",
+     "dv-obyvak",
+     "dv-terasa-loznice"
+    ],
+    "closed": [
+     "dv-loznice",
+     "dv-terasa-obyvak"
+    ],
+    "angles": {
+     "dv-obyvak": 165
+    }
+   }
+  },
+  {
+   "id": "foto-13",
+   "url": "fotky/foto-13.jpg",
+   "thumb": "fotky/mini-13.jpg",
+   "roomId": "obyvak",
+   "position": [
+    3.157,
+    1.356,
+    0.497
+   ],
+   "yaw": -124.74,
+   "hfov": 97.19,
+   "offsetY": -0.036,
+   "aspect": 1.5023,
+   "title": "Obývací pokoj ke vstupu",
+   "caption": "Obývací pokoj ke kuchyni a ke vstupu z předsíně.",
+   "doors": {
+    "open": [
+     "dv-obyvak",
+     "dv-terasa-loznice"
+    ],
+    "closed": [
+     "dv-koupelna",
+     "dv-loznice",
+     "dv-terasa-obyvak"
+    ],
+    "angles": {
+     "dv-obyvak": 165
+    }
+   }
+  },
+  {
+   "id": "foto-14",
+   "url": "fotky/foto-14.jpg",
+   "thumb": "fotky/mini-14.jpg",
+   "roomId": "obyvak",
+   "position": [
+    6.306,
+    0.965,
+    1.656
+   ],
+   "yaw": 89.82,
+   "hfov": 96.89,
+   "offsetY": -0.0255,
+   "aspect": 1.5023,
+   "title": "Obývací pokoj k terase",
+   "caption": "Obývací pokoj s prosklenou stěnou a dveřmi na terasu.",
+   "doors": {
+    "open": [
+     "dv-koupelna",
+     "dv-obyvak",
+     "dv-terasa-loznice"
+    ],
+    "closed": [
+     "dv-loznice",
+     "dv-terasa-obyvak"
+    ]
+   },
+   "fadeS": 0.25
+  },
+  {
+   "id": "foto-15",
+   "url": "fotky/foto-15.jpg",
+   "thumb": "fotky/mini-15.jpg",
+   "roomId": "obyvak",
+   "position": [
+    6.497,
+    1.271,
+    0.649
+   ],
+   "yaw": 125.54,
+   "hfov": 96.98,
+   "offsetY": -0.0207,
+   "aspect": 1.5052,
+   "title": "Obývací pokoj s TV stěnou",
+   "caption": "Obývací pokoj s TV stěnou a dveřmi do ložnice.",
+   "doors": {
+    "open": [
+     "dv-koupelna",
+     "dv-obyvak",
+     "dv-terasa-loznice"
+    ],
+    "closed": [
+     "dv-loznice",
+     "dv-terasa-obyvak"
+    ]
+   },
+   "fadeS": 0.25
+  },
+  {
+   "id": "foto-16",
+   "url": "fotky/foto-16.jpg",
+   "thumb": "fotky/mini-16.jpg",
+   "roomId": "loznice",
+   "position": [
+    5.805,
+    1.394,
+    5.107
+   ],
+   "yaw": 101.11,
+   "hfov": 97,
+   "offsetY": 0.0017,
+   "aspect": 1.5009,
+   "title": "Ložnice",
+   "caption": "Ložnice asi 12 m² s klimatizací a dveřmi na terasu.",
+   "doors": {
+    "open": [
+     "dv-koupelna",
+     "dv-loznice",
+     "dv-obyvak",
+     "dv-terasa-obyvak"
+    ],
+    "closed": [
+     "dv-terasa-loznice"
+    ]
+   },
+   "fadeS": 0.25
+  },
+  {
+   "id": "foto-17",
+   "url": "fotky/foto-17.jpg",
+   "thumb": "fotky/mini-17.jpg",
+   "roomId": "loznice",
+   "position": [
+    3.251,
+    1.486,
+    4.22
+   ],
+   "yaw": -139.27,
+   "hfov": 97,
+   "offsetY": -0.0294,
+   "aspect": 1.5009,
+   "title": "Ložnice s postelí",
+   "caption": "Ložnice s manželskou postelí a pracovním koutem.",
+   "doors": {
+    "open": [
+     "dv-koupelna",
+     "dv-loznice",
+     "dv-obyvak",
+     "dv-terasa-obyvak"
+    ],
+    "closed": [
+     "dv-terasa-loznice"
+    ]
+   }
+  },
+  {
+   "id": "foto-18",
+   "url": "fotky/foto-18.jpg",
+   "thumb": "fotky/mini-18.jpg",
+   "roomId": "loznice",
+   "position": [
+    3.631,
+    1.177,
+    5.68
+   ],
+   "yaw": -66,
+   "hfov": 96.23,
+   "offsetY": 0.0453,
+   "aspect": 1.5009,
+   "title": "Ložnice se skříní",
+   "caption": "Ložnice s posuvnou šatní skříní se zrcadlem.",
+   "doors": {
+    "open": [
+     "dv-koupelna",
+     "dv-obyvak",
+     "dv-terasa-obyvak"
+    ],
+    "closed": [
+     "dv-loznice",
+     "dv-terasa-loznice"
+    ]
+   }
+  },
+  {
+   "id": "foto-19",
+   "url": "fotky/foto-19.jpg",
+   "thumb": "fotky/mini-19.jpg",
+   "roomId": "terasa",
+   "position": [
+    0.205,
+    1.673,
+    4.62
+   ],
+   "yaw": -35.28,
+   "hfov": 97.8,
+   "offsetY": -0.0608,
+   "aspect": 1.5038,
+   "title": "Terasa",
+   "caption": "Krytá terasa asi 16,3 m² přístupná z obývacího pokoje i z ložnice.",
+   "doors": {
+    "open": [
+     "dv-koupelna",
+     "dv-loznice",
+     "dv-obyvak",
+     "dv-terasa-obyvak"
+    ],
+    "closed": [
+     "dv-terasa-loznice"
+    ]
+   },
+   "fadeS": 0.25
+  },
+  {
+   "id": "foto-20",
+   "url": "fotky/foto-20.jpg",
+   "thumb": "fotky/mini-20.jpg",
+   "roomId": "terasa",
+   "position": [
+    1.72,
+    1.398,
+    5.92
+   ],
+   "yaw": 29.4,
+   "hfov": 97,
+   "offsetY": -0.0114,
+   "aspect": 1.5023,
+   "title": "Posezení na terase",
+   "caption": "Posezení na terase u severní zdi.",
+   "doors": {
+    "open": [
+     "dv-koupelna",
+     "dv-loznice",
+     "dv-obyvak",
+     "dv-terasa-loznice",
+     "dv-terasa-obyvak"
+    ],
+    "closed": []
+   },
+   "fadeS": 0.25
+  },
+  {
+   "id": "foto-21",
+   "url": "fotky/foto-21.jpg",
+   "thumb": "fotky/mini-21.jpg",
+   "roomId": "terasa",
+   "position": [
+    0.3,
+    0.967,
+    0.427
+   ],
+   "yaw": 168.33,
+   "hfov": 97,
+   "offsetY": 0.0431,
+   "aspect": 1.5038,
+   "title": "Terasa k jihu",
+   "caption": "Terasa podél obytné části, na jižním konci místo pro gril.",
+   "doors": {
+    "open": [
+     "dv-koupelna",
+     "dv-loznice",
+     "dv-obyvak",
+     "dv-terasa-loznice",
+     "dv-terasa-obyvak"
+    ],
+    "closed": []
+   },
+   "fadeS": 0.25
+  },
+  {
+   "id": "foto-22",
+   "url": "fotky/foto-22.jpg",
+   "thumb": "fotky/mini-22.jpg",
+   "roomId": "terasa",
+   "position": [
+    2,
+    1.775,
+    3.073
+   ],
+   "yaw": 121.96,
+   "hfov": 97.16,
+   "offsetY": -0.0099,
+   "aspect": 1.5009,
+   "title": "Výhled z terasy",
+   "caption": "Výhled z terasy na okolní zástavbu.",
+   "doors": {
+    "open": [
+     "dv-koupelna",
+     "dv-loznice",
+     "dv-obyvak",
+     "dv-terasa-loznice",
+     "dv-terasa-obyvak"
+    ],
+    "closed": []
+   },
+   "fadeS": 0.25
+  },
+  {
+   "id": "foto-23",
+   "url": "fotky/foto-23.jpg",
+   "thumb": "fotky/mini-23.jpg",
+   "roomId": "terasa",
+   "position": [
+    2.258,
+    1.488,
+    3.499
+   ],
+   "yaw": 92.99,
+   "hfov": 97.23,
+   "offsetY": 0.0336,
+   "aspect": 1.5023,
+   "title": "Výhled z terasy",
+   "caption": "Výhled z terasy přes zábradlí s truhlíky.",
+   "doors": {
+    "open": [
+     "dv-koupelna",
+     "dv-loznice",
+     "dv-obyvak",
+     "dv-terasa-loznice",
+     "dv-terasa-obyvak"
+    ],
+    "closed": []
+   },
+   "fadeS": 0.25
+  }
+ ],
+ "lightmap": {
+  "url": "lightmap/lightmap.json"
+ },
+ "listing": {
+  "headline": "Byt 2+kk s terasou · Šlapanice",
+  "facts": [
+   {
+    "label": "Dispozice",
+    "value": "2+kk"
+   },
+   {
+    "label": "Užitná plocha",
+    "value": "39,7 m²"
+   },
+   {
+    "label": "Podlahová plocha",
+    "value": "40,2 m²"
+   },
+   {
+    "label": "Terasa",
+    "value": "16,3 m²"
+   },
+   {
+    "label": "Podlaží",
+    "value": "3. NP"
+   },
+   {
+    "label": "Stav",
+    "value": "novostavba"
+   },
+   {
+    "label": "Energetická třída",
+    "value": "B"
+   },
+   {
+    "label": "Příslušenství",
+    "value": "sklep, parkovací místo v garáži domu"
+   },
+   {
+    "label": "Vybavení",
+    "value": "kuchyň, klimatizace"
+   }
+  ],
+  "areaM2": 39.7,
+  "highlights": [
+   "Terasa 16 m²",
+   "Parkování v garáži domu",
+   "Kuchyň a klimatizace",
+   "Sklep"
+  ],
+  "description": "Novostavba bytu 2+kk ve 3. NP bytového domu ve Šlapanicích u Brna. K bytu patří krytá terasa 16 m², sklep a parkovací místo v garáži domu; podle makléře je součástí kuchyň a klimatizace.",
+  "hero": {
+   "photo": "foto-06"
+  },
+  "source": "Údaje podle podkladů makléře (e-mail z 28. 10. 2026) a katalogového listu developera. Plochy místností jsou orientační podle půdorysu."
+ }
+}
