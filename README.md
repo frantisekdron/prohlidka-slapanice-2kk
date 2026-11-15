@@ -1,4 +1,4 @@
-# Byt 2+kk s terasou, Šlapanice · 3D prohlídka
+# Byt 2+kk s terasou, Šlapanice · 3D prohlídka | Daniel Helešic
 
 Statická 3D prohlídka (engine FD Prohlídka): procházka bytem, minimapa, průvodce (G), fotky v 3D (I galerie, O nejbližší fotka, ← → další).
 

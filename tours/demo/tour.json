@@ -1,6 +1,6 @@
 {
  "version": 1,
- "title": "Byt 2+kk s terasou – Šlapanice",
+ "title": "Byt 2+kk s terasou · Šlapanice",
  "source": "demo",
  "units": "m",
  "spawn": {
@@ -1040,7 +1040,7 @@
     "x": 8.22,
     "z": 4.9,
     "facing": "N",
-    "w": 0.5,
+    "w": 0.6,
     "d": 0.35,
     "h": 0.95,
     "color": 14198134,
@@ -1212,7 +1212,7 @@
    },
    {
     "id": "obyvak-psaci-stul",
-    "kind": "desk",
+    "kind": "diningTable",
     "roomId": "obyvak",
     "x": 5.85,
     "z": 0.55,
@@ -1222,6 +1222,20 @@
     "h": 0.76,
     "color": 13809046,
     "decor": false
+   },
+   {
+    "id": "obyvak-psaci-stul-kontejner",
+    "kind": "wardrobe",
+    "roomId": "obyvak",
+    "x": 6.13,
+    "z": 0.54,
+    "facing": "S",
+    "w": 0.4,
+    "d": 0.46,
+    "h": 0.72,
+    "variant": "plain",
+    "color": 3156259,
+    "solid": false
    },
    {
     "id": "obyvak-kancelarska-zidle",
@@ -1271,7 +1285,8 @@
     "w": 0.5,
     "d": 0.8,
     "h": 0.42,
-    "color": 13809046
+    "color": 13809046,
+    "decor": false
    },
    {
     "id": "obyvak-koberec",
@@ -1315,7 +1330,7 @@
     "kind": "shelf",
     "roomId": "obyvak",
     "x": 4.35,
-    "z": 0.4,
+    "z": 0.402,
     "facing": "S",
     "w": 1.2,
     "d": 0.22,
@@ -1328,7 +1343,7 @@
     "kind": "shelf",
     "roomId": "obyvak",
     "x": 4,
-    "z": 0.4,
+    "z": 0.402,
     "facing": "S",
     "w": 1.2,
     "d": 0.22,
@@ -1378,12 +1393,12 @@
     "id": "obyvak-rostlina-1",
     "kind": "plant",
     "roomId": "obyvak",
-    "x": 5.43,
-    "z": 3.3,
+    "x": 5.57,
+    "z": 3.25,
     "facing": "N",
     "w": 0.35,
     "d": 0.35,
-    "h": 1,
+    "h": 0.65,
     "variant": "pot"
    },
    {
@@ -1535,7 +1550,7 @@
     "x": 3.42,
     "z": 5.78,
     "facing": "E",
-    "w": 1.2,
+    "w": 1.3,
     "d": 0.6,
     "h": 0.75,
     "color": 2763308
@@ -1561,6 +1576,7 @@
     "w": 0.4,
     "d": 0.2,
     "y": 1.45,
+    "variant": "books",
     "color": 13809046
    },
    {
@@ -1573,6 +1589,7 @@
     "w": 0.4,
     "d": 0.2,
     "y": 1.95,
+    "variant": "books",
     "color": 13809046
    },
    {
@@ -2412,5 +2429,48 @@
    "photo": "foto-06"
   },
   "source": "Údaje podle podkladů makléře (e-mail z 28. 10. 2026) a katalogového listu developera. Plochy místností jsou orientační podle půdorysu."
+ },
+ "branding": {
+  "name": "Daniel Helešic · Broker Consulting",
+  "logo": {
+   "onLight": "branding/logo-tmave.png",
+   "onDark": "branding/logo-svetle.png",
+   "alt": "Daniel Helešic – Broker Consulting"
+  },
+  "colors": {
+   "primary": "#E1262F",
+   "accent": "#EE5C63",
+   "panel": "#111A25",
+   "text": "#FFFFFF"
+  },
+  "font": {
+   "family": "Barlow Condensed",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "radius": 6,
+  "agent": {
+   "name": "Daniel Helešic",
+   "role": "finanční a realitní konzultant · Broker Consulting",
+   "photo": "branding/daniel.jpg",
+   "phone": "+420 730 815 185",
+   "email": "daniel.helesic@bcas.cz",
+   "web": "https://danielhelesic.cz"
+  },
+  "cta": {
+   "label": "Domluvit prohlídku",
+   "href": "tel:+420730815185"
+  },
+  "intro": {
+   "subtitle": "Šlapanice u Brna · 2+kk s terasou · 39,7 m² + terasa 16,3 m²"
+  },
+  "favicon": "branding/favicon.png",
+  "pageTitle": "Byt 2+kk s terasou, Šlapanice · 3D prohlídka | Daniel Helešic",
+  "description": "Projděte si byt 2+kk s terasou ve Šlapanicích u Brna online ve 3D. Prohlídku na místě domluví Daniel Helešic, Broker Consulting.",
+  "ogImage": "branding/og.jpg"
  }
 }
